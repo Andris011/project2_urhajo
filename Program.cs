@@ -69,11 +69,12 @@ class Program
         {
             Kiiras();
             
-        int player_x = 0, player_y = 0;
+            int player_x = 0, player_y = 0;
         
-        pressed_key = Console.ReadKey(true);
+            pressed_key = Console.ReadKey(true);
 
-        Console.Clear();
+            Console.Clear();
+            
             for (int i = 0; i < map.GetLength(0); i++)
             {
                 for (int j = 0; j < map.GetLength(1); j++)
