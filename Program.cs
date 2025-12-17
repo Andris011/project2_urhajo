@@ -269,9 +269,7 @@ class Program
             Thread.Sleep(1000 / 24);
 
         } while (!kilepes);
-
-
-
+        
         Kiiras();
         Console.WriteLine();
         Console.WriteLine("Viszlát!");
