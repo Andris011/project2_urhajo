@@ -63,7 +63,7 @@ class Program
                 ki += ($"{map[i, j]}");
             }
 
-            ki += "\n";
+            ki += Environment.NewLine;
         }
 
         Console.WriteLine(ki);
@@ -277,11 +277,7 @@ class Program
         Console.WriteLine("Nyomjon egy gombot a kilépéshez!");
         Console.ReadKey(true);
     }
-
-
-
-
-
+    
     static void Main(string[] args)
     {
         Mozgas();
